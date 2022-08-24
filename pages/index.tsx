@@ -1,13 +1,11 @@
 import type { NextPage } from "next";
 import * as React from "react";
-import dynamic from "next/dynamic";
-import Image from "next/image";
-import Modal from "../components/Modal";
 import "../styles/Home.module.css";
+import RollingPan from "../components/RollingPan";
 
 const Home: NextPage = () => (
   <>
-    <Modal />
+    <RollingPan />
   </>
 );
 

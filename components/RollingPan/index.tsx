@@ -42,7 +42,7 @@ const RollingPan = () => {
                 </div>
             }
           
-          <Image src={ mobile ? "/images/draw (4).png" : "/images/desktop/draw.png"} width={mobile ? 300 : 838} height={mobile ? 262 : 731}/>
+          <Image src={ mobile ? "/images/draw (5).png" : "/images/desktop/draw1.png"} width={mobile ? 300 : 838} height={mobile ? 262 : 731}/>
         </div>
       </div>
   

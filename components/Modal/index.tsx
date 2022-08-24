@@ -7,11 +7,11 @@ const Modal = () => {
     <>
       <button
         className="bg-blue-200 text-black active:bg-blue-500 
-      font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+      font-bold rounded shadow hover:shadow-lg outline-none focus:outline-none top-50h left-50w"
         type="button"
         onClick={() => setShowModal(true)}
       >
-        Roll
+        Roll Up!!!
       </button>
       {showModal ? (
       <>
