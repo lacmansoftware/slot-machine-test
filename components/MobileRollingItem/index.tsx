@@ -6,6 +6,8 @@ const RollingItem = dynamic(() => {
 
   interface IProps{
     target: Number
+    start: Boolean
+    setStart: any
   }
 
 const MobileRollingItem: FC<IProps> = (props): JSX.Element => {
