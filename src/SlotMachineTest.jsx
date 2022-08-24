@@ -41,7 +41,7 @@ const reels = [
   // add more reels ...
 ];
 
-const SlotMachine = () => {
+const SlotMachineTest = () => {
   const [play, setPlay] = React.useState(false);
 
   const playEvent = () => {
@@ -61,4 +61,4 @@ const SlotMachine = () => {
   );
 };
 
-export default SlotMachine;
+export default SlotMachineTest;
